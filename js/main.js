@@ -326,6 +326,22 @@ d3.csv(url).then(data => { // Get Data
 
   d3.select("#target")
     .append("h3")
+    .text("Insight No.1: ");
+
+  d3.select("#target")
+    .append("h5")
+    .text("El municipio que más incautaciones de estupefacientes tuvo fue Tumaco.");
+
+  d3.select("#target")
+    .append("br");
+  d3.select("#target")
+    .append("br");
+  d3.select("#target")
+    .append("br");
+
+  d3.select("#target")
+    .append("h2")
+    .attr("align", "center")
     .text("¿Cuál es el municipio con más incautaciones de estupesfacientes?");
 
   d3.select("#target")
@@ -350,8 +366,8 @@ d3.csv(url).then(data => { // Get Data
     .append("option")
     .text(d => d);
 
-    d3.select("#selector")
-      .property("value" , "");
+  d3.select("#selector")
+    .property("value", "");
 
   function onchange() {
     d3.select("#target2").remove();
@@ -476,12 +492,18 @@ d3.csv(url).then(data => { // Get Data
 
 d3.select("#target3")
   .append("h3")
-  .text("Insight No.2");
+  .text("Insight No.2: ");
 
 d3.select("#target3")
   .append("h5")
-  .text("El día de la semana en el que se encautan más estupefacientes es el día lunes");
+  .text("El día de la semana en el que más estupefacientes en Colombia es el día lunes.");
 
+d3.select("#target3")
+  .append("br");
+d3.select("#target3")
+  .append("br");
+d3.select("#target3")
+  .append("br");
 d3.select("#target3")
   .append("br");
 d3.select("#target3")
