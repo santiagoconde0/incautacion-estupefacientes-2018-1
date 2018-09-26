@@ -36,11 +36,11 @@ Para realizar la visualización se utilizaron datos proveídos por la policía n
 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Vizualizacion 1 "
+[logo]: https://github.com/santiagoconde0/incautacion-estupefacientes-2018-1/blob/master/img/viz1.png "Logo Vizualizacion 1 "
 
 ![alt text][logo2]
 
-[logo2]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo2 Vizualizacion 2 "
+[logo2]: https://github.com/santiagoconde0/incautacion-estupefacientes-2018-1/blob/master/img/viz2.png "Logo2 Vizualizacion 2 "
 
 ## WHAT
 
